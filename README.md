@@ -22,9 +22,9 @@ These results are a snapshot obtained at a single point in time on Feb 3, 2021.
 
 | Environment  | Data location | Client | Time | Speed    | Diff |
 | ------------ | ------ | ------ | ----------: | -------: | ---: |
-| TIKE         | AWS    | boto3  | 9s          | 907 Mbps | 1x   |
-| TIKE         | AWS    | httpx  | 16s         | 510 Mbps | 2x
-| TIKE         | MAST   | httpx  | 1m13s       | 112 Mbps | 8x   |
+| TIKE beta    | AWS    | boto3  | 9s          | 907 Mbps | 1x   |
+| TIKE beta    | AWS    | httpx  | 16s         | 510 Mbps | 2x
+| TIKE beta    | MAST   | httpx  | 1m13s       | 112 Mbps | 8x   |
 | Google Colab | AWS    | boto3  | 33s         | 247 Mbps | 4x   |
 | Google Colab | AWS    | httpx  | 1m53s       | 72 Mbps  | 13x  |
 | Google Colab | MAST   | httpx  | 8m27s       | 16 Mbps  | 56x  |
